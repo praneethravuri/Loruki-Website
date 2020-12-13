@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
 
 :root{
-    --primary-color:orangered;
+    --primary-color:rgb(34, 25, 88);
     --hover-color: whitesmoke;
 }
 
@@ -16,6 +16,7 @@ body {
     font-family:'Lato', sans-serif;
     color: whitesmoke;
     line-height:1.6;
+    background-color:black;
 }
 
 ul{
@@ -186,9 +187,10 @@ img{
     bottom: -70px;
     right: 0;
     left: 0;
-    background-color: white;
+    background-color: black;
     transform: skewY(-2deg);
     -webkit-transform: skewY(-2deg);
     -moz-transform: skewY(-2deg);
     -ms-transform: skewY(-2deg);
 }
+
