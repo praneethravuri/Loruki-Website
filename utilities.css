@@ -33,6 +33,34 @@
     transform: scale(0.98);
 }
 
+/* Backgrounds and Coloured Buttons */
+.bg-primary, .btn-primary{
+    background-color: var(--primary-color);
+    color: whitesmoke;
+}
+.bg-secondary, .btn-secondary{
+    background-color: var(--secondary-color);
+    color: whitesmoke;
+}
+.bg-dark, .btn-dark{
+    background-color: var(--dark-color);
+    color: var(--primary-color);
+    font-weight:bold;
+}
+.bg-light, .btn-light{
+    background-color: var(--light-color);
+    color:black;
+}
+
+/* Text Sizes */
+.lead {
+    font-size: 20px;
+}
+
+.lg{
+    font-size: 2rem;
+    font-weight: bold;
+}
 .text-center{
     text-align: center;
 }

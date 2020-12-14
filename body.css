@@ -1,7 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
 
+
+
+
+
 :root{
     --primary-color:rgb(34, 25, 88);
+    --secondary-color:#047aed;
+    --dark-color:#f4f4f4;
+    --light-color:#011c36;
     --hover-color: whitesmoke;
 }
 
@@ -19,7 +26,6 @@ body {
     font-family:'Lato', sans-serif;
     color: black;
     line-height:1.6;
-    background-color:whitesmoke;
 }
 
 ul{
@@ -144,4 +150,32 @@ img{
 /* STATS */
 .stats{
     padding-top: 100px;
+}
+
+.stats .grid h3{
+    font-size: 30px;
+}
+
+.stats .grid p{
+    font-size:20px;
+    font-weight:bold;
+}
+
+
+/* CLI Image */
+.cli .grid{
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(2,1fr);
+}
+
+.cli .grid > *:first-child{
+    grid-column: 1 / span 2;
+    grid-row: 1 / span 2;
+}
+
+
+/* Cloud */
+.cloud .grid{
+    grid-template-columns: 4fr 3fr;
+
 }
