@@ -201,6 +201,11 @@ img{
     margin: 0 10px;
 }
 
+/* Features */
+.features-head img{
+    width: 200px;
+    justify-self: flex-end;
+}
 
 
 /* Tablets and under */
